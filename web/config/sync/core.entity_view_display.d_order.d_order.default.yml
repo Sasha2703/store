@@ -1,0 +1,51 @@
+uuid: 18e58123-8503-4c33-acec-441d972284c4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.d_order.d_order.field_dost
+    - field.field.d_order.d_order.field_manag
+    - field.field.d_order.d_order.field_pay_method
+    - field.field.d_order.d_order.field_status
+  module:
+    - dev_order
+id: d_order.d_order.default
+targetEntityType: d_order
+bundle: d_order
+mode: default
+content:
+  email:
+    type: basic_string
+    weight: 2
+    region: content
+    label: inline
+    settings: {  }
+    third_party_settings: {  }
+  field_dost:
+    weight: 3
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  name:
+    type: string
+    weight: 0
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+  phone:
+    type: string
+    weight: 1
+    region: content
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+hidden:
+  field_manag: true
+  field_pay_method: true
+  field_status: true

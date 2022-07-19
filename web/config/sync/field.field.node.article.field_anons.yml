@@ -1,0 +1,21 @@
+uuid: 555bfa7c-2864-4adf-a87e-605e851024e7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_anons
+    - node.type.article
+  module:
+    - text
+id: node.article.field_anons
+field_name: field_anons
+entity_type: node
+bundle: article
+label: Анонс
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

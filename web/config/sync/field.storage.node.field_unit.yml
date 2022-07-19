@@ -1,0 +1,36 @@
+uuid: 1563f4ca-a60a-4f54-b9d2-d0f7f8057748
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_unit
+field_name: field_unit
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: шт.
+    -
+      value: '2'
+      label: м2
+    -
+      value: '3'
+      label: м.пог.
+    -
+      value: '4'
+      label: рулон
+    -
+      value: '5'
+      label: упаковка
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: e112dd84-c826-49b8-9f53-a819e9bcd2cf
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:forma:148fe10d-acc7-437e-acb9-7b39d82a166f'
+  module:
+    - block_content
+  theme:
+    - new
+id: calcul
+theme: new
+region: bottom
+weight: -13
+provider: null
+plugin: 'block_content:148fe10d-acc7-437e-acb9-7b39d82a166f'
+settings:
+  id: 'block_content:148fe10d-acc7-437e-acb9-7b39d82a166f'
+  label: 'Отправить проект на рассчет'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

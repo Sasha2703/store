@@ -1,0 +1,21 @@
+uuid: 74fd92e8-bbfb-4f3a-a855-54240772e9e8
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_short_desc
+    - taxonomy.vocabulary.catalogue
+  module:
+    - text
+id: taxonomy_term.catalogue.field_short_desc
+field_name: field_short_desc
+entity_type: taxonomy_term
+bundle: catalogue
+label: 'Краткое описание'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,15 @@
+uuid: f7808508-8dae-44c9-b65a-8a473b8e26ae
+langcode: ru
+status: true
+dependencies: {  }
+name: boot_thumb
+label: boot_thumb
+effects:
+  d5a1da60-98f5-4c81-9736-4b767a6228bd:
+    uuid: d5a1da60-98f5-4c81-9736-4b767a6228bd
+    id: image_scale
+    weight: 1
+    data:
+      width: 84
+      height: 84
+      upscale: false

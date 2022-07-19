@@ -1,0 +1,23 @@
+uuid: 31500d11-538b-4c2d-84e5-e6329d23674a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_novelty
+    - node.type.product
+id: node.product.field_novelty
+field_name: field_novelty
+entity_type: node
+bundle: product
+label: Новинка
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Новинка
+  off_label: '0'
+field_type: boolean

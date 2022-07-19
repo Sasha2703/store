@@ -1,0 +1,25 @@
+uuid: 3eb5570f-6d74-484d-a718-c0c8717a9a71
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:31e831ca-5944-4fc2-bbd7-74479850b830'
+  module:
+    - block_content
+  theme:
+    - new
+id: comparepage
+theme: new
+region: header_top
+weight: -16
+provider: null
+plugin: 'block_content:31e831ca-5944-4fc2-bbd7-74479850b830'
+settings:
+  id: 'block_content:31e831ca-5944-4fc2-bbd7-74479850b830'
+  label: 'Compare page'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

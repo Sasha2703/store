@@ -1,0 +1,23 @@
+uuid: 0b5497c1-a054-4d45-a4e8-4d207dc32648
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_format_dney
+    - node.type.product
+  module:
+    - options
+id: node.product.field_format_dney
+field_name: field_format_dney
+entity_type: node
+bundle: product
+label: 'Формат дней'
+description: 'Формат вывода поля для срока изготовления'
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

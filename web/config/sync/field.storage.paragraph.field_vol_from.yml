@@ -1,0 +1,20 @@
+uuid: 79a731df-2bc0-4969-a60b-b3436e8e7458
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_vol_from
+field_name: field_vol_from
+entity_type: paragraph
+type: integer
+settings:
+  unsigned: false
+  size: normal
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,18 @@
+uuid: f1801303-d18c-475f-88dc-fb89da3682b2
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_aktion
+field_name: field_aktion
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

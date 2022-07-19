@@ -1,0 +1,22 @@
+uuid: c2b058ab-f337-449f-84b9-9ffe9d29ad40
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.sticky
+field_name: sticky
+entity_type: node
+bundle: news
+label: 'Закреплять вверху списков'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

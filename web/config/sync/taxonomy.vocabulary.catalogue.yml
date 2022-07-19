@@ -1,0 +1,8 @@
+uuid: d47634d4-0289-46e3-8b19-50b7ea1e1b8d
+langcode: und
+status: true
+dependencies: {  }
+name: Каталог
+vid: catalogue
+description: ''
+weight: 0

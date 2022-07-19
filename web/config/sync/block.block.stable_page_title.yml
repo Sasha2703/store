@@ -1,0 +1,14 @@
+id: stable_page_title
+region: content
+weight: -50
+plugin: page_title_block
+settings:
+  label: 'Page title'
+  label_display: '0'
+visibility: {  }
+langcode: ru
+uuid: f47e1624-0e46-4ecb-83a5-0cdf39eaf17f
+theme: stable
+dependencies:
+  theme:
+    - stable

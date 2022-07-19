@@ -1,0 +1,20 @@
+uuid: 44e1818d-a5a3-410a-a32e-7784069894de
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_characs
+field_name: field_characs
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

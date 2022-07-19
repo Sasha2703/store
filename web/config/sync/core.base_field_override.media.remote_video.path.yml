@@ -1,0 +1,20 @@
+uuid: 57e09dad-ee9f-4a5f-9332-12573cb4cb03
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+  module:
+    - path
+id: media.remote_video.path
+field_name: path
+entity_type: media
+bundle: remote_video
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

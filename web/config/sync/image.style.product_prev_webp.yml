@@ -1,0 +1,25 @@
+uuid: 62a1dfb5-4c8f-43ba-9f06-3201e0364d13
+langcode: ru
+status: true
+dependencies:
+  module:
+    - imagick
+name: product_prev_webp
+label: product_prev_webp
+effects:
+  c84da1e5-13f1-43b3-a0a6-daf54bc819fe:
+    uuid: c84da1e5-13f1-43b3-a0a6-daf54bc819fe
+    id: image_scale
+    weight: 1
+    data:
+      width: 250
+      height: 250
+      upscale: false
+  a21266dd-cc65-4234-9e52-108edf8d6964:
+    uuid: a21266dd-cc65-4234-9e52-108edf8d6964
+    id: image_convert
+    weight: 2
+    data:
+      format: webp
+      quality: '75'
+pipeline: __default__

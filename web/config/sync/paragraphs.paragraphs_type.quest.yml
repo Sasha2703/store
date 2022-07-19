@@ -1,0 +1,9 @@
+uuid: 73a83c6f-c691-4992-afd8-f4e28eccbd60
+langcode: ru
+status: true
+dependencies: {  }
+id: quest
+label: Вопросы
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

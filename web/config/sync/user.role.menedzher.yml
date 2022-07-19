@@ -1,0 +1,11 @@
+uuid: c1e92c78-b3ce-45e9-99f1-09b3e80fc37f
+langcode: ru
+status: true
+dependencies: {  }
+id: menedzher
+label: Менеджер
+weight: 3
+is_admin: null
+permissions:
+  - 'edit d_order entity'
+  - 'view d_order entity'

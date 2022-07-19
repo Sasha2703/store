@@ -1,0 +1,64 @@
+uuid: 6790cbfe-6479-467b-9182-97e98b496cf4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.currency.field_kurs
+    - field.field.taxonomy_term.currency.field_markup_proc
+    - field.field.taxonomy_term.currency.field_markup_summa
+    - field.field.taxonomy_term.currency.field_old_id
+    - taxonomy.vocabulary.currency
+  module:
+    - text
+id: taxonomy_term.currency.default
+targetEntityType: taxonomy_term
+bundle: currency
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_kurs:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_markup_proc:
+    weight: 4
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_markup_summa:
+    weight: 3
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_old_id:
+    weight: 5
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,26 @@
+uuid: c70e2a1f-938c-46a9-89fb-2e8c1cd221b9
+langcode: ru
+status: true
+dependencies:
+  module:
+    - quicktabs
+    - system
+  theme:
+    - new
+id: quicktabssravnenie
+theme: new
+region: content
+weight: 0
+provider: null
+plugin: 'quicktabs_block:sravnenie'
+settings:
+  id: 'quicktabs_block:sravnenie'
+  label: 'QuickTabs - Сравнение'
+  provider: quicktabs
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /compare
+    negate: false
+    context_mapping: {  }

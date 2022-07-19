@@ -1,0 +1,25 @@
+uuid: a2f3a383-e9a4-4e71-b437-b99c6e332674
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:fdb95ea2-714b-4a94-bc9d-a06b542c7e1b'
+  module:
+    - block_content
+  theme:
+    - new
+id: konstruktorkrovli
+theme: new
+region: navigation
+weight: 0
+provider: null
+plugin: 'block_content:fdb95ea2-714b-4a94-bc9d-a06b542c7e1b'
+settings:
+  id: 'block_content:fdb95ea2-714b-4a94-bc9d-a06b542c7e1b'
+  label: 'Конструктор кровли'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

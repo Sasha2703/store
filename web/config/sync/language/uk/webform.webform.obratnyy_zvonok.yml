@@ -1,0 +1,10 @@
+elements: |
+  processed_text_01:
+    '#text': "<p>Залиште Ваші контакти і ми передзвонимо в робочий час.</p>\n"
+  imya:
+    '#placeholder': 'Ваше ім''я'
+  processed_text:
+    '#text': "<div class=\"note\">Вказуючи свої дані, Ви даєте повну згоду на обробку персональних даних відповідно до <a href=\"/uk/politika-konfidencialnosti-administracii-sayta\" rel=\"nofollow\">Політикою конфіденційності адміністрації сайту</a></div>\n<div class=\"note\">Гарантуємо безпеку Ваших даних і те, що вони не будуть передані третім особам</div>\n"
+  actions:
+    '#submit__label': Відправити
+settings: null

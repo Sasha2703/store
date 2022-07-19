@@ -1,0 +1,33 @@
+uuid: 2eeeae04-4d42-4784-abc6-f0d1c2cea36b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - options
+id: node.field_in
+field_name: field_in
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'На складе'
+    -
+      value: '2'
+      label: 'Под заказ'
+    -
+      value: '3'
+      label: Изготовление
+    -
+      value: '4'
+      label: 'Снято с производства'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

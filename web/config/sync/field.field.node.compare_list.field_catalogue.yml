@@ -1,0 +1,29 @@
+uuid: 4e258854-b770-4d1d-b40e-7f1bcdc2d203
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_catalogue
+    - node.type.compare_list
+    - taxonomy.vocabulary.catalogue
+id: node.compare_list.field_catalogue
+field_name: field_catalogue
+entity_type: node
+bundle: compare_list
+label: Каталог
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      catalogue: catalogue
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,20 @@
+uuid: 9aefcbc6-1003-408f-b90d-9329fc7dd5d7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.color
+  module:
+    - path
+id: taxonomy_term.color.path
+field_name: path
+entity_type: taxonomy_term
+bundle: color
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

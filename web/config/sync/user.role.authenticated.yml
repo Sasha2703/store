@@ -1,0 +1,27 @@
+uuid: aa39fad2-ba4b-456b-8c44-1cc4c3399521
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: dJ0L2DNSj5q6XVZAGsuVDpJTh5UeYkIPwKrUOOpr8YI
+id: authenticated
+label: 'Аутентифицированный пользователь'
+weight: 1
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access shortcuts'
+  - 'access site-wide contact form'
+  - 'add d_order entity'
+  - 'flag compare'
+  - 'post comments'
+  - 'search content'
+  - 'unflag compare'
+  - 'use text format basic_html'
+  - 'view media'
+  - 'view own d_order'
+  - 'vote on comment:review:field_rate'
+  - 'vote on node:product:field_rate'
+  - 'vote on node:product:field_vote'
+  - 'vote on taxonomy_term:catalogue:field_rating'

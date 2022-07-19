@@ -1,0 +1,24 @@
+label: Комплектація
+display:
+  default:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"views-field views-field-field-image\">{{ field_image }} </div>\r\n<div class=\"views-field views-field-title\">{{ title }}</div>\r\n<div class=\"views-field views-field-field-price-def\">{{ field_price_def }}</div>"
+      title: Комплектація
+      arguments:
+        nid:
+          title: Комплектація
+  attachment_1:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"views-field views-field-title\">{{ title }}</div>\r\n"
+  page_1:
+    display_options:
+      fields:
+        nothing:
+          alter:
+            text: "<div class=\"views-field views-field-field-image\">{{ field_image }} </div>\r\n<div class=\"views-field views-field-title\">{{ title }}</div>\r\n<div class=\"views-field views-field-field-price-def\">{{ field_price_def }}</div>"

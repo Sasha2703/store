@@ -1,0 +1,23 @@
+uuid: 8388b42a-5b96-4db4-9573-6f6af3ef1700
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_kurs
+    - taxonomy.vocabulary.currency
+id: taxonomy_term.currency.field_kurs
+field_name: field_kurs
+entity_type: taxonomy_term
+bundle: currency
+label: Курс
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

@@ -1,0 +1,23 @@
+uuid: b208de53-08e4-4aa1-9db6-0eae3ad42cab
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.search
+  module:
+    - views
+  theme:
+    - new
+id: raskrytayaformasearchpage_1
+theme: new
+region: navigation
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:search-page_1'
+settings:
+  id: 'views_exposed_filter_block:search-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

@@ -1,0 +1,33 @@
+uuid: 4b289eb0-a3e2-4330-8c38-a8255f940d61
+langcode: ru
+status: true
+dependencies:
+  module:
+    - dev_order
+    - options
+id: d_order.field_status
+field_name: field_status
+entity_type: d_order
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: Новый
+    -
+      value: '2'
+      label: Обработан
+    -
+      value: '3'
+      label: Получен
+    -
+      value: '4'
+      label: Отменен
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

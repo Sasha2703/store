@@ -1,0 +1,21 @@
+uuid: 20b36a5b-25e8-4157-b1de-5e3f18dbabbd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_goo
+    - node.type.product
+  module:
+    - options
+id: node.product.field_goo
+field_name: field_goo
+entity_type: node
+bundle: product
+label: field_goo
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: list_integer

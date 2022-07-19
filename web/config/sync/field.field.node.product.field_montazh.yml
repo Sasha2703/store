@@ -1,0 +1,21 @@
+uuid: b12f0d75-488f-40f5-bba7-64ac218ca28b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_montazh
+    - node.type.product
+  module:
+    - text
+id: node.product.field_montazh
+field_name: field_montazh
+entity_type: node
+bundle: product
+label: Монтаж
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

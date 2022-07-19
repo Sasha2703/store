@@ -1,0 +1,21 @@
+uuid: 71be5cbf-f68f-40ee-937b-55d7ff123af5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_short_desc
+    - node.type.product
+  module:
+    - text
+id: node.product.field_short_desc
+field_name: field_short_desc
+entity_type: node
+bundle: product
+label: 'Краткое описание'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

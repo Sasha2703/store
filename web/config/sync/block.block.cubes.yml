@@ -1,0 +1,31 @@
+uuid: 6a9b6bf8-bd34-49e2-9065-bb0fb8b2538d
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:5927f2e6-843c-4dba-b4a5-51cbd2ff8e13'
+  module:
+    - block_content
+    - system
+  theme:
+    - new
+id: cubes
+theme: new
+region: content_top
+weight: -18
+provider: null
+plugin: 'block_content:5927f2e6-843c-4dba-b4a5-51cbd2ff8e13'
+settings:
+  id: 'block_content:5927f2e6-843c-4dba-b4a5-51cbd2ff8e13'
+  label: Квадратики
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

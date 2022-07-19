@@ -1,0 +1,23 @@
+uuid: b86b01ee-1af0-4329-86a7-b45cb9ec3d01
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_unit
+    - node.type.product
+  module:
+    - options
+id: node.product.field_unit
+field_name: field_unit
+entity_type: node
+bundle: product
+label: 'Единица измерения'
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

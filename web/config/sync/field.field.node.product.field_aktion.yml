@@ -1,0 +1,23 @@
+uuid: 44c58b78-ad84-4484-9e74-b9414afacbb4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_aktion
+    - node.type.product
+id: node.product.field_aktion
+field_name: field_aktion
+entity_type: node
+bundle: product
+label: Акция
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Акция
+  off_label: '0'
+field_type: boolean

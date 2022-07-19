@@ -1,0 +1,22 @@
+uuid: 1873de37-5a1a-4d80-87a2-a574b91f8fcf
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: article
+label: article
+type: 'canonical_entities:node'
+pattern: 'article/[node:title]'
+selection_criteria:
+  41377415-df8a-4a79-bfc0-17995dbefa76:
+    id: node_type
+    bundles:
+      article: article
+    negate: false
+    context_mapping:
+      node: node
+    uuid: 41377415-df8a-4a79-bfc0-17995dbefa76
+selection_logic: and
+weight: -5
+relationships: {  }

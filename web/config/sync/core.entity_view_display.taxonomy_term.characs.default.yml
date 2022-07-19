@@ -1,0 +1,36 @@
+uuid: 9719d3d2-83d4-4d73-bd51-5c6309631497
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.characs.field_in_catalog
+    - field.field.taxonomy_term.characs.field_in_filtr
+    - field.field.taxonomy_term.characs.field_old_id
+    - field.field.taxonomy_term.characs.field_tooltip
+    - taxonomy.vocabulary.characs
+  module:
+    - text
+id: taxonomy_term.characs.default
+targetEntityType: taxonomy_term
+bundle: characs
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_tooltip:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  field_in_catalog: true
+  field_in_filtr: true
+  field_old_id: true
+  langcode: true

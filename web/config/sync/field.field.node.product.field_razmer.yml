@@ -1,0 +1,19 @@
+uuid: 9b0ab7e0-b6b0-4623-aefc-1db7b9d1463b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_razmer
+    - node.type.product
+id: node.product.field_razmer
+field_name: field_razmer
+entity_type: node
+bundle: product
+label: 'Размер (вес)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

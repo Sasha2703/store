@@ -1,0 +1,18 @@
+uuid: 5e9d161c-21ce-4c89-b77d-f4ec50bf6710
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.quest
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+id: paragraph.quest
+target_entity_type_id: paragraph
+target_bundle: quest
+default_langcode: site_default
+language_alterable: true

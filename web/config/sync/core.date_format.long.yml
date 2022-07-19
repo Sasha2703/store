@@ -1,0 +1,10 @@
+uuid: f4125642-587c-4cbb-ad02-db74e53f48be
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: og8sWXhBuHbLMw3CoiBEZjgqSyhFBFmcbUW_wLcfNbo
+id: long
+label: 'Длинная дата по умолчанию'
+locked: false
+pattern: 'l, F j, Y - H:i'

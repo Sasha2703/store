@@ -1,0 +1,25 @@
+uuid: bd16cbfb-59e4-404a-8eea-bf360965c37a
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Анонимный пользователь'
+weight: 0
+is_admin: false
+permissions:
+  - 'access comments'
+  - 'access content'
+  - 'access site-wide contact form'
+  - 'add d_order entity'
+  - 'flag compare'
+  - 'post comments'
+  - 'search content'
+  - 'unflag compare'
+  - 'use text format restricted_html'
+  - 'view media'
+  - 'vote on comment:review:field_rate'
+  - 'vote on node:product:field_rate'
+  - 'vote on node:product:field_vote'
+  - 'vote on taxonomy_term:catalogue:field_rating'

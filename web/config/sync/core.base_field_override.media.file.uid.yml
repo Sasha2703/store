@@ -1,0 +1,20 @@
+uuid: 0aa99a69-484c-4449-9734-d0543f5bbece
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.file
+id: media.file.uid
+field_name: uid
+entity_type: media
+bundle: file
+label: Автор
+description: 'ID автора.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

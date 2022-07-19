@@ -1,0 +1,20 @@
+uuid: fa7558ac-9609-432a-b3e9-6f3e0b5d1b65
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.d_order.field_manag
+  module:
+    - dev_order
+id: d_order.d_order.field_manag
+field_name: field_manag
+entity_type: d_order
+bundle: d_order
+label: Менеджер
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

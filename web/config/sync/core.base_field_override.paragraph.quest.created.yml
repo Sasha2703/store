@@ -1,0 +1,18 @@
+uuid: 5c695a6e-b4db-41e9-87b7-76cfbb08caac
+langcode: ru
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.quest
+id: paragraph.quest.created
+field_name: created
+entity_type: paragraph
+bundle: quest
+label: 'Время создания'
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

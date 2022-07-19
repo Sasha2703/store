@@ -1,0 +1,19 @@
+uuid: c92c58de-7359-4737-820f-179a69ba2726
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_vopros
+    - paragraphs.paragraphs_type.quest
+id: paragraph.quest.field_vopros
+field_name: field_vopros
+entity_type: paragraph
+bundle: quest
+label: Вопрос
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

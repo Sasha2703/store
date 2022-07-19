@@ -1,0 +1,22 @@
+uuid: fb9f6ecd-4aec-41d2-8d86-65f9f7d7d3ba
+langcode: ru
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - new
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: new_messages
+theme: new
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Сообщения статуса'
+  provider: system
+  label_display: '0'
+visibility: {  }

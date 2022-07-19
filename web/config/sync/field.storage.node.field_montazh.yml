@@ -1,0 +1,19 @@
+uuid: 194d84d5-1b1e-4c8e-bda2-7f794d796c66
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_montazh
+field_name: field_montazh
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

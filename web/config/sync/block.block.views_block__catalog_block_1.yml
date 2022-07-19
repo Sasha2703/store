@@ -1,0 +1,30 @@
+uuid: 77178280-8c95-43c4-8bf4-599fafde9a13
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.catalog
+  module:
+    - system
+    - views
+  theme:
+    - new
+id: views_block__catalog_block_1
+theme: new
+region: content
+weight: -15
+provider: null
+plugin: 'views_block:catalog-block_1'
+settings:
+  id: 'views_block:catalog-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

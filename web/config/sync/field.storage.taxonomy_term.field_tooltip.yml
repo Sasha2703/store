@@ -1,0 +1,19 @@
+uuid: ec54bfed-964f-4d92-baef-ecfeafaa3596
+langcode: ru
+status: true
+dependencies:
+  module:
+    - taxonomy
+id: taxonomy_term.field_tooltip
+field_name: field_tooltip
+entity_type: taxonomy_term
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 780bf947-df21-4dff-be10-d6b56b58d408
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.compare_list
+id: node.compare_list.promote
+field_name: promote
+entity_type: node
+bundle: compare_list
+label: 'Помещено на главную страницу'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

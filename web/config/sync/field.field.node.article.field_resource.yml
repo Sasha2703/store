@@ -1,0 +1,19 @@
+uuid: e95c68c5-d12d-48fc-bd03-00eed0aacaa4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_resource
+    - node.type.article
+id: node.article.field_resource
+field_name: field_resource
+entity_type: node
+bundle: article
+label: Источник
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

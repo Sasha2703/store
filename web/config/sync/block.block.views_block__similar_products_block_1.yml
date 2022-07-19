@@ -1,0 +1,33 @@
+uuid: dbeebb15-2998-4efb-80a8-b58608e4615f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.similar_products
+  module:
+    - ctools
+    - views
+  theme:
+    - new
+id: views_block__similar_products_block_1
+theme: new
+region: sidebar_second
+weight: -18
+provider: null
+plugin: 'views_block:similar_products-block_1'
+settings:
+  id: 'views_block:similar_products-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

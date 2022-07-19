@@ -1,0 +1,21 @@
+uuid: e0d78f34-04c4-4ee7-b113-90b1b430c0c5
+langcode: ru
+status: true
+dependencies:
+  module:
+    - dev_order
+id: d_order.field_dost
+field_name: field_dost
+entity_type: d_order
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,19 @@
+uuid: 8cbac085-e6f2-46ae-8b3a-4af78403a8ba
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_planki
+field_name: field_planki
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

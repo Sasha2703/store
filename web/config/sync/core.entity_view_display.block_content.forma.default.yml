@@ -1,0 +1,24 @@
+uuid: a28e158b-6086-4911-9f5b-5bfb3e187bd9
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.forma
+    - field.field.block_content.forma.field_forma
+  module:
+    - webform
+id: block_content.forma.default
+targetEntityType: block_content
+bundle: forma
+mode: default
+content:
+  field_forma:
+    weight: 0
+    label: hidden
+    settings:
+      source_entity: true
+    third_party_settings: {  }
+    type: webform_entity_reference_entity_view
+    region: content
+hidden:
+  langcode: true

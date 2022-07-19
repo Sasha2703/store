@@ -1,0 +1,18 @@
+uuid: e71223da-6199-4c7d-af9f-d331c2f78f7e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.currency
+id: taxonomy_term.currency.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: currency
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

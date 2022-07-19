@@ -1,0 +1,42 @@
+uuid: b10f2dbd-2f60-4bc5-a50a-ff9ace7c7d02
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.field.comment.review.comment_body
+    - field.field.comment.review.field_rate
+  module:
+    - text
+    - votingapi_widgets
+id: comment.review.default
+targetEntityType: comment
+bundle: review
+mode: default
+content:
+  comment_body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_rate:
+    weight: 0
+    label: hidden
+    settings:
+      style: css-stars
+      readonly: '1'
+      show_results: 0
+      show_own_vote: 0
+      values: {  }
+    third_party_settings: {  }
+    type: voting_api_formatter
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

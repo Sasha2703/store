@@ -1,0 +1,22 @@
+uuid: 44573bac-2ab2-4a55-adc6-4b0924212e33
+langcode: ru
+status: true
+dependencies:
+  module:
+    - taxonomy
+    - votingapi_widgets
+id: taxonomy_term.field_rating
+field_name: field_rating
+entity_type: taxonomy_term
+type: voting_api_field
+settings:
+  vote_type: vote
+  vote_plugin: fivestar
+  status: ''
+module: votingapi_widgets
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

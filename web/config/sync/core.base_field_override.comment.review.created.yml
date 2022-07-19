@@ -1,0 +1,18 @@
+uuid: 805536b0-ce38-49cb-bc91-c22c36fb5f9f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.review
+id: comment.review.created
+field_name: created
+entity_type: comment
+bundle: review
+label: Created
+description: 'The time that the comment was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

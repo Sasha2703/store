@@ -1,0 +1,8 @@
+display:
+  page_1:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Покрівельні матеріали | Прайс-лист | Актуальні ціни | ВНК'
+            description: 'Покрівельні матеріали в Києві та Київській області. Широкий асортимент товарів, актуальні ціни. Виконання покрівельних робіт.'

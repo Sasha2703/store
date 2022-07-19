@@ -1,0 +1,20 @@
+uuid: 7dca4ebf-aa51-4a34-a4c8-90f301c56215
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.image
+id: media.image.uid
+field_name: uid
+entity_type: media
+bundle: image
+label: Автор
+description: 'ID автора.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\media\Entity\Media::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

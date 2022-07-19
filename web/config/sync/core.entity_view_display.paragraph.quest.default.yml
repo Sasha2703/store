@@ -1,0 +1,29 @@
+uuid: 9bc4aef2-5fb7-4755-8ef7-6d868167d3fc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quest.field_otvet
+    - field.field.paragraph.quest.field_vopros
+    - paragraphs.paragraphs_type.quest
+id: paragraph.quest.default
+targetEntityType: paragraph
+bundle: quest
+mode: default
+content:
+  field_otvet:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+  field_vopros:
+    weight: 0
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden: {  }

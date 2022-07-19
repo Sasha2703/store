@@ -1,0 +1,20 @@
+uuid: ac30e9b4-ad36-4a98-93da-b3cdf3a7ffe3
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+id: node.field_catalogue
+field_name: field_catalogue
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,25 @@
+uuid: 4878aa81-8c59-461a-be0b-bc5ec62e6e53
+langcode: ru
+status: false
+dependencies:
+  content:
+    - 'block_content:forma:0197f2d5-a070-4f42-87d6-018418c608dc'
+  module:
+    - block_content
+  theme:
+    - new
+id: svyazatsyasrazrabotchikom
+theme: new
+region: bottom
+weight: 0
+provider: null
+plugin: 'block_content:0197f2d5-a070-4f42-87d6-018418c608dc'
+settings:
+  id: 'block_content:0197f2d5-a070-4f42-87d6-018418c608dc'
+  label: 'Связаться с разработчиком'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

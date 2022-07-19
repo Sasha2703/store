@@ -1,0 +1,18 @@
+uuid: f2455423-84af-47b6-b14f-d173891a0030
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.currency
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: taxonomy_term.currency
+target_entity_type_id: taxonomy_term
+target_bundle: currency
+default_langcode: und
+language_alterable: false

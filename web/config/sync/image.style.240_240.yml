@@ -1,0 +1,15 @@
+uuid: 086e6c25-620f-4203-a1dd-d632b2f3d061
+langcode: ru
+status: true
+dependencies: {  }
+name: '240_240'
+label: '240_240'
+effects:
+  b0e2d860-496c-4033-92d4-30112e01834c:
+    uuid: b0e2d860-496c-4033-92d4-30112e01834c
+    id: image_scale
+    weight: 1
+    data:
+      width: 240
+      height: 240
+      upscale: false

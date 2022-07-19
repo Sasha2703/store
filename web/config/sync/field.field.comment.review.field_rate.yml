@@ -1,0 +1,28 @@
+uuid: 7c60103d-6cbe-4130-a10b-e29031d91f7d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.review
+    - field.storage.comment.field_rate
+  module:
+    - votingapi_widgets
+id: comment.review.field_rate
+field_name: field_rate
+entity_type: comment
+bundle: review
+label: Оценка
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: '0'
+    value: ''
+default_value_callback: ''
+settings:
+  anonymous_window: '-1'
+  user_window: '-1'
+  result_function: vote_average
+  widget_format: fivestar
+field_type: voting_api_field

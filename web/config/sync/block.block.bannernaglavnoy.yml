@@ -1,0 +1,31 @@
+uuid: 9004ba56-fb43-43b9-af30-59744b4166c1
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ab5a1246-a897-4308-8c9c-76c4ea53463c'
+  module:
+    - block_content
+    - system
+  theme:
+    - new
+id: bannernaglavnoy
+theme: new
+region: top
+weight: -16
+provider: null
+plugin: 'block_content:ab5a1246-a897-4308-8c9c-76c4ea53463c'
+settings:
+  id: 'block_content:ab5a1246-a897-4308-8c9c-76c4ea53463c'
+  label: 'Баннер на главной'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

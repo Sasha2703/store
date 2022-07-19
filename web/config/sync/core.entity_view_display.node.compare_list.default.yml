@@ -1,0 +1,37 @@
+uuid: e4d67b64-f129-4b8c-be17-ce274471b981
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.compare_list.field_catalogue
+    - field.field.node.compare_list.field_characs
+    - node.type.compare_list
+  module:
+    - user
+id: node.compare_list.default
+targetEntityType: node
+bundle: compare_list
+mode: default
+content:
+  field_catalogue:
+    weight: 0
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_characs:
+    weight: 1
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+hidden:
+  field_price_def: true
+  field_price_old: true
+  langcode: true
+  links: true
+  search_api_excerpt: true

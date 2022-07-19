@@ -1,0 +1,14 @@
+label: Замовлення
+display:
+  default:
+    display_options:
+      title: 'Мої замовлення'
+      fields:
+        total:
+          label: Сума
+  page_1:
+    display_options:
+      menu:
+        title: 'Мої замовлення'
+      tab_options:
+        title: 'Мої замовлення'

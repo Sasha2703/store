@@ -1,0 +1,19 @@
+uuid: 50f3b30d-46d9-4802-b4eb-3249dca13289
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.article
+id: node.article.field_link
+field_name: field_link
+entity_type: node
+bundle: article
+label: Ссылка
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

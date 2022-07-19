@@ -1,0 +1,14 @@
+uuid: 53741a75-a458-43d6-b4d5-b353833aff50
+langcode: ru
+status: true
+dependencies: {  }
+name: Code
+format: code
+weight: 0
+filters:
+  filter_htmlcorrector:
+    id: filter_htmlcorrector
+    provider: filter
+    status: true
+    weight: 10
+    settings: {  }

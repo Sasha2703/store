@@ -1,0 +1,19 @@
+uuid: 519130b8-cfb5-4c1d-8c7c-4a33839d682b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_link
+    - node.type.news
+id: node.news.field_link
+field_name: field_link
+entity_type: node
+bundle: news
+label: Ссылка
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

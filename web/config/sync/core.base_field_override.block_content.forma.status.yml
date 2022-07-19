@@ -1,0 +1,22 @@
+uuid: fff11773-e36e-43bd-b77e-a65117501b08
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.forma
+id: block_content.forma.status
+field_name: status
+entity_type: block_content
+bundle: forma
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

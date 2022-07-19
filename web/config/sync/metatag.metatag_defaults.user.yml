@@ -1,0 +1,12 @@
+uuid: d7f2a3b0-5059-4344-8c6f-f09a95fcb30f
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: MvQPTbQx0Vxwy0ordSHyixdZmLCMpvMdLD69dlwkrKc
+id: user
+label: User
+tags:
+  canonical_url: '[user:url]'
+  description: '[site:name]'
+  title: '[user:display-name] | [site:name]'

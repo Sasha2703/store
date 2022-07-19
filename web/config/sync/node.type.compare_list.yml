@@ -1,0 +1,17 @@
+uuid: b592e4af-6b01-4587-ba1f-1c519438b005
+langcode: ru
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Список сравнения'
+type: compare_list
+description: 'Temp decision for list of characteristics for compare page.'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

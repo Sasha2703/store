@@ -1,0 +1,20 @@
+uuid: bb61185d-aea6-45ed-9826-a507c36968b3
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.news
+id: node.news.uid
+field_name: uid
+entity_type: node
+bundle: news
+label: Автор
+description: 'Имя пользователя автора содержимого.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: 'Drupal\node\Entity\Node::getDefaultEntityOwner'
+settings:
+  handler: default
+  handler_settings: {  }
+field_type: entity_reference

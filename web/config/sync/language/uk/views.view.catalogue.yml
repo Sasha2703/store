@@ -1,0 +1,14 @@
+display:
+  block_1:
+    display_options:
+      fields:
+        name:
+          alter:
+            text: "<div class=\"term-block-first\">\r\n<div class=\"term-name\">{{ name }} </div>\r\n<div class=\"term-image\">{{ field_image }}</div>\r\n</div>\r\n"
+  page_1:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Все для покрівлі | Каталог покрівельних матеріалів | ВНК'
+            description: 'Покрівельні матеріали в Києві і області. Широкий вибір, актуальні ціни, доставка, монтаж.'

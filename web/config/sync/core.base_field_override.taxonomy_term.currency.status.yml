@@ -1,0 +1,22 @@
+uuid: b310b854-db6c-4628-8203-24ae72d9fc84
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.currency
+id: taxonomy_term.currency.status
+field_name: status
+entity_type: taxonomy_term
+bundle: currency
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

@@ -1,0 +1,20 @@
+uuid: 3fdc3061-8a63-438d-bfd4-8facbdb55809
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.product
+  module:
+    - path
+id: node.product.path
+field_name: path
+entity_type: node
+bundle: product
+label: 'Синоним URL'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

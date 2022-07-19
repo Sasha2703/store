@@ -1,0 +1,21 @@
+uuid: 611561cb-d17f-4397-8f8e-98c0844e8de7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colors_text
+    - node.type.product
+  module:
+    - text
+id: node.product.field_colors_text
+field_name: field_colors_text
+entity_type: node
+bundle: product
+label: 'Цвета текст'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,13 @@
+uuid: 7e04c76f-f0b1-4f51-8570-2ebb6c6045b6
+langcode: ru
+status: true
+dependencies: {  }
+id: node__product
+label: 'Содержимое: Товар'
+tags:
+  description: '[node:field_short_desc]'
+  title: '[node:title] | [site:name]'
+  canonical_url: '[node:url]'
+  og_image: '/sites/default/files/styles/product_image/public/product/[node:field_image:0:entity]'
+  og_title: '[node:title]'
+  og_url: '[node:url]'

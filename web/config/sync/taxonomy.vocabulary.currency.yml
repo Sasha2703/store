@@ -1,0 +1,8 @@
+uuid: 27ca7d88-680a-4fa5-9da2-5f544e3d1e4f
+langcode: und
+status: true
+dependencies: {  }
+name: Валюта
+vid: currency
+description: ''
+weight: 0

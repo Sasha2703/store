@@ -1,0 +1,10 @@
+elements: |
+  message:
+    '#title': Повідомлення
+    '#placeholder': Повідомлення
+  processed_text:
+    '#text': "<div class=\"note\">Вказуючи свої дані, Ви даєте повну згоду на обробку персональних даних відповідно до <a href=\"/politika-konfidencialnosti-administracii-sayta\" rel=\"nofollow\">Політики конфіденційності адміністрації сайту</a></div>\n\n<div class=\"note\">Гарантуємо безпеку Ваших даних і те, що вони не будуть передані третім особам</div>\n"
+  actions:
+    '#submit__label': Надіслати
+settings:
+  confirmation_message: 'Ваше повідомлення відправлено.'

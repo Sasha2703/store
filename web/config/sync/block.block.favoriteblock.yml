@@ -1,0 +1,20 @@
+uuid: dc28f3dc-9ebd-4f5f-91f7-0d986bf7235b
+langcode: ru
+status: true
+dependencies:
+  module:
+    - dev_favorite
+  theme:
+    - new
+id: favoriteblock
+theme: new
+region: header_top
+weight: -17
+provider: null
+plugin: favblock
+settings:
+  id: favblock
+  label: 'Favorite block'
+  provider: dev_favorite
+  label_display: '0'
+visibility: {  }

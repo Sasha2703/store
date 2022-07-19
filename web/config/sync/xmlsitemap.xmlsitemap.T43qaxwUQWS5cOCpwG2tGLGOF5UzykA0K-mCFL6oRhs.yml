@@ -1,0 +1,8 @@
+uuid: b7eab3ac-33ed-4367-a0b6-5e574527fd44
+langcode: ru
+status: true
+dependencies: {  }
+id: T43qaxwUQWS5cOCpwG2tGLGOF5UzykA0K-mCFL6oRhs
+label: Ukr
+context:
+  language: uk

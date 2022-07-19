@@ -1,0 +1,33 @@
+uuid: e1d09bb8-ac76-4966-9b36-ec1b241bdb47
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_currency
+    - node.type.product
+    - taxonomy.vocabulary.currency
+  content:
+    - 'taxonomy_term:currency:42689d2d-2fe0-41c1-b860-b33db9ad3ebc'
+id: node.product.field_currency
+field_name: field_currency
+entity_type: node
+bundle: product
+label: Валюта
+description: ''
+required: true
+translatable: false
+default_value:
+  -
+    target_uuid: 42689d2d-2fe0-41c1-b860-b33db9ad3ebc
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      currency: currency
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

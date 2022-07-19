@@ -1,0 +1,15 @@
+uuid: bdec0199-99dd-4b86-a3e6-7d24ba26eb42
+langcode: ru
+status: true
+dependencies:
+  config:
+    - flag.flag.compare
+  module:
+    - flag
+id: flag_action.compare_flag
+label: Compare
+type: node
+plugin: 'flag_action:compare_flag'
+configuration:
+  flag_id: compare
+  flag_action: flag

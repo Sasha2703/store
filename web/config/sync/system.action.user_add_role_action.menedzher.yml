@@ -1,0 +1,14 @@
+uuid: bc415ca1-8f21-478e-b839-45611b446f74
+langcode: ru
+status: true
+dependencies:
+  config:
+    - user.role.menedzher
+  module:
+    - user
+id: user_add_role_action.menedzher
+label: 'Add the Менеджер role to the selected user(s)'
+type: user
+plugin: user_add_role_action
+configuration:
+  rid: menedzher

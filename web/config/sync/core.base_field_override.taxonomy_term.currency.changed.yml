@@ -1,0 +1,18 @@
+uuid: 7ec036dc-83b0-40f0-97f1-6b75020eff2f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.currency
+id: taxonomy_term.currency.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: currency
+label: Changed
+description: 'The time that the term was last edited.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

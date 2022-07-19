@@ -1,0 +1,429 @@
+uuid: 4d578f12-9f8e-4dcb-9bd1-2bfbb0188d14
+langcode: ru
+status: true
+dependencies: {  }
+id: sravnenie
+label: Сравнение
+renderer: quick_tabs
+options:
+  quick_tabs:
+    class: ''
+    style: tabsbar
+    ajax: false
+hide_empty_tabs: true
+default_tab: 9999
+configuration_data:
+  -
+    title: 'Default comparison'
+    weight: -10
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_1
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: Металлочерепица
+    weight: -9
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_2
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Фальцевая кровля'
+    weight: -8
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_3
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Битумная черепица'
+    weight: -7
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_4
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Композитная черепица'
+    weight: -6
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_5
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Модульная черепица'
+    weight: -5
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_6
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Цементно-песчаная черепица'
+    weight: -4
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_7
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Водосточные системы'
+    weight: -3
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_8
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Софит - подшивка кровли'
+    weight: -2
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_9
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Комплектация кровли'
+    weight: -1
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_10
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Подкровельные пленки'
+    weight: 0
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_11
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: Утеплитель
+    weight: 1
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_12
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Мансардные окна'
+    weight: 2
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_13
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: Профнастил
+    weight: 3
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_14
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Блок - хаус металлический'
+    weight: 4
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_15
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Забор Евроштакетник'
+    weight: 5
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_16
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Чердачные лестницы'
+    weight: 6
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_17
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''
+  -
+    title: 'Кровельные работы'
+    weight: 7
+    type: view_content
+    content:
+      block_content:
+        options:
+          bid: dcartblock
+          block_title: ''
+          display_title: false
+      node_content:
+        options:
+          nid: ''
+          view_mode: full
+          hide_title: true
+      view_content:
+        options:
+          vid: sravnenie
+          display: page_18
+          args: ''
+      qtabs_content:
+        options:
+          machine_name: ''

@@ -1,0 +1,18 @@
+uuid: a2bb8b1d-2174-4df3-ab60-3897d463aa7e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.characs
+id: taxonomy_term.characs.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: characs
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

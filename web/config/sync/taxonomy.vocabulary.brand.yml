@@ -1,0 +1,8 @@
+uuid: 78a130e3-c5b2-4987-ba4b-94c508bc7098
+langcode: und
+status: true
+dependencies: {  }
+name: Производители
+vid: brand
+description: ''
+weight: 0

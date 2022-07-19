@@ -1,0 +1,23 @@
+uuid: 56b63348-fdbb-4518-8660-031a5f63b00d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.taxonomy_term
+  module:
+    - views
+  theme:
+    - new
+id: raskrytayaformataxonomy_termpage_1
+theme: new
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_exposed_filter_block:taxonomy_term-page_1'
+settings:
+  id: 'views_exposed_filter_block:taxonomy_term-page_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+visibility: {  }

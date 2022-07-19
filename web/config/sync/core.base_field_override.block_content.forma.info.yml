@@ -1,0 +1,18 @@
+uuid: 84b81f2a-7f90-4eff-9ce4-077b1ba7560a
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.forma
+id: block_content.forma.info
+field_name: info
+entity_type: block_content
+bundle: forma
+label: 'Описание блока'
+description: 'Краткое описание вашего блока.'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

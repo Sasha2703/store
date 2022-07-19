@@ -1,0 +1,9 @@
+uuid: 184ff930-3c54-4f4e-9eb3-ee3cb2e937fe
+langcode: ru
+status: true
+dependencies: {  }
+id: wholesale
+label: 'Оптовые цены (параграф)'
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

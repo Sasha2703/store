@@ -1,0 +1,25 @@
+uuid: c5d2d54c-c000-42d3-9f8f-e50e88ab87ef
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.catalog
+  module:
+    - views
+  theme:
+    - new
+id: views_block__catalog_block_2
+theme: new
+region: sidebar_first
+weight: 0
+provider: null
+plugin: 'views_block:catalog-block_2'
+settings:
+  id: 'views_block:catalog-block_2'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

@@ -1,0 +1,19 @@
+label: 'Схожі товари'
+display:
+  block_1:
+    display_options:
+      block_description: 'Схожі товари'
+      header:
+        area_text_custom:
+          content: 'Схожі товари'
+  block_2:
+    display_options:
+      block_description: 'Переглянуті товари'
+      header:
+        area_text_custom:
+          content: 'Переглянуті товари'
+  default:
+    display_options:
+      header:
+        area_text_custom:
+          content: 'Переглянуті товари'

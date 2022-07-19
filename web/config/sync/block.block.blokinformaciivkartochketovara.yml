@@ -1,0 +1,33 @@
+uuid: ac62efbb-2058-4cf6-bd33-11b646ee8b2b
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:cfd99aca-d3d6-4570-bbb7-79639ba0b850'
+  module:
+    - block_content
+    - ctools
+  theme:
+    - new
+id: blokinformaciivkartochketovara
+theme: new
+region: sidebar_second
+weight: -19
+provider: null
+plugin: 'block_content:cfd99aca-d3d6-4570-bbb7-79639ba0b850'
+settings:
+  id: 'block_content:cfd99aca-d3d6-4570-bbb7-79639ba0b850'
+  label: 'Блок информации в карточке товара'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

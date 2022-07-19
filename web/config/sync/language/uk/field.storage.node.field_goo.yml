@@ -1,0 +1,6 @@
+settings:
+  allowed_values:
+    2:
+      label: Блоґ
+    4:
+      label: Думка

@@ -1,0 +1,51 @@
+uuid: a35a0974-2a78-411b-940d-34570f24217c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.compare_list.field_catalogue
+    - field.field.node.compare_list.field_characs
+    - node.type.compare_list
+id: node.compare_list.default
+targetEntityType: node
+bundle: compare_list
+mode: default
+content:
+  field_catalogue:
+    weight: 1
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  field_characs:
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: entity_reference_autocomplete
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  langcode: true
+  path: true
+  promote: true
+  status: true
+  sticky: true
+  translation: true
+  uid: true
+  url_redirects: true

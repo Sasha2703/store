@@ -1,0 +1,18 @@
+uuid: 0687cd68-409d-47c3-87e5-70b3470c6f3e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.product
+id: node.product.metatag
+field_name: metatag
+entity_type: node
+bundle: product
+label: Мета-теги
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

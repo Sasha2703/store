@@ -1,0 +1,31 @@
+uuid: 7bdd57d3-7b53-4a04-a2ae-6a6fa0dd71d5
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.order_products
+  module:
+    - system
+    - views
+  theme:
+    - new
+id: views_block__order_products_block_1
+theme: new
+region: content
+weight: -17
+provider: null
+plugin: 'views_block:order_products-block_1'
+settings:
+  id: 'views_block:order_products-block_1'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility:
+  request_path:
+    id: request_path
+    pages: "/d_order/*\r\n/uk/d_order/*"
+    negate: false
+    context_mapping: {  }

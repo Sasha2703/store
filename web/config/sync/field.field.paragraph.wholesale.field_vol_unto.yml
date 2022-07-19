@@ -1,0 +1,23 @@
+uuid: bcf1c072-a391-417c-89af-006bdc752bb4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_vol_unto
+    - paragraphs.paragraphs_type.wholesale
+id: paragraph.wholesale.field_vol_unto
+field_name: field_vol_unto
+entity_type: paragraph
+bundle: wholesale
+label: До
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

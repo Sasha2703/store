@@ -1,0 +1,18 @@
+uuid: 4453da66-fd6a-4cab-a539-cc6df18edb66
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.characs
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+    bundle_settings:
+      untranslatable_fields_hide: '1'
+id: taxonomy_term.characs
+target_entity_type_id: taxonomy_term
+target_bundle: characs
+default_langcode: und
+language_alterable: true

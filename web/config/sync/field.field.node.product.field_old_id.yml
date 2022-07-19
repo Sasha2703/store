@@ -1,0 +1,23 @@
+uuid: 3eaef087-5734-4d13-b6c9-a96bb9e7ce1e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_old_id
+    - node.type.product
+id: node.product.field_old_id
+field_name: field_old_id
+entity_type: node
+bundle: product
+label: 'Старый ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,29 @@
+uuid: 9daa1e65-059b-4a43-83d3-ac218b86337c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - vnk_flag
+title: 'Default cron handler'
+id: vnk_flag_cron
+weight: 0
+module: vnk_flag
+callback: vnk_flag_cron
+scheduler:
+  id: simple
+  configuration:
+    rules:
+      - '0+@ * * * *'
+launcher:
+  id: serial
+  configuration:
+    timeouts:
+      lock_timeout: 3600
+    launcher:
+      thread: 0
+logger:
+  id: database
+  configuration:
+    method: '3'
+    expire: 1209600
+    retain: 1000

@@ -1,0 +1,7 @@
+add_license: false
+minifier: 0
+ratio_max: 0.9
+ratio_min: 0.1
+_core:
+  default_config_hash: E3AQzy-sb2G3omtTNJ3j0dTJfhf_pkuA1XiMdg2yeE0
+langcode: ru

@@ -1,0 +1,15 @@
+uuid: 900435ef-43a8-4fda-978a-e8f1f8dd9ad1
+langcode: ru
+status: true
+dependencies:
+  module:
+    - imageapi_optimize_resmushit
+name: lossy
+label: 'Lossy recompression'
+processors:
+  a5f7a0de-ee71-4dab-8e96-fb154678ee98:
+    uuid: a5f7a0de-ee71-4dab-8e96-fb154678ee98
+    id: resmushit
+    weight: -9
+    data:
+      quality: 70

@@ -1,0 +1,24 @@
+uuid: 5ca8bd73-3932-4834-9862-9b37d88811e4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.catalogue
+  module:
+    - views
+  theme:
+    - new
+id: views_block__catalogue_block_3
+theme: new
+region: navigation
+weight: -11
+provider: null
+plugin: 'views_block:catalogue-block_3'
+settings:
+  id: 'views_block:catalogue-block_3'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+visibility: {  }

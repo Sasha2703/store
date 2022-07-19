@@ -1,0 +1,19 @@
+uuid: ebe95cbc-f236-44a5-bb85-eb2fe34b7cc5
+langcode: ru
+status: true
+dependencies:
+  module:
+    - paragraphs
+id: paragraph.field_otvet
+field_name: field_otvet
+entity_type: paragraph
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

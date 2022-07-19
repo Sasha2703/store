@@ -1,0 +1,37 @@
+uuid: 1c59c646-855f-46e5-9616-936365737333
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.forma
+    - field.field.block_content.forma.field_forma
+  module:
+    - webform
+id: block_content.forma.default
+targetEntityType: block_content
+bundle: forma
+mode: default
+content:
+  field_forma:
+    weight: 0
+    settings:
+      default_data: true
+    third_party_settings: {  }
+    type: webform_entity_reference_select
+    region: content
+  info:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 2
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+hidden: {  }

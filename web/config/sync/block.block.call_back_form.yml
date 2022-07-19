@@ -1,0 +1,31 @@
+uuid: 5143b26f-3da4-40e9-a706-583b35c45f43
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:forma:22406f80-c8ae-41ae-9b1e-6421440b5fc5'
+  module:
+    - block_content
+    - system
+  theme:
+    - new
+id: call_back_form
+theme: new
+region: bottom
+weight: -14
+provider: null
+plugin: 'block_content:22406f80-c8ae-41ae-9b1e-6421440b5fc5'
+settings:
+  id: 'block_content:22406f80-c8ae-41ae-9b1e-6421440b5fc5'
+  label: 'Обратный звонок'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: ''
+    negate: true
+    context_mapping: {  }

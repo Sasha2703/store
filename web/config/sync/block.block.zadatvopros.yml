@@ -1,0 +1,25 @@
+uuid: 7a1c02be-8529-4c30-8817-6afa8ad4f907
+langcode: ru
+status: false
+dependencies:
+  content:
+    - 'block_content:forma:f3623df3-fee3-43f1-a553-cc97f6fad9fd'
+  module:
+    - block_content
+  theme:
+    - new
+id: zadatvopros
+theme: new
+region: bottom
+weight: -15
+provider: null
+plugin: 'block_content:f3623df3-fee3-43f1-a553-cc97f6fad9fd'
+settings:
+  id: 'block_content:f3623df3-fee3-43f1-a553-cc97f6fad9fd'
+  label: 'Задать вопрос'
+  provider: block_content
+  label_display: visible
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

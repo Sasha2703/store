@@ -1,0 +1,22 @@
+uuid: 7eaabc20-4bc7-4ca1-918a-8325231a2be2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.file
+id: media.file.status
+field_name: status
+entity_type: media
+bundle: file
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

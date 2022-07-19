@@ -1,0 +1,24 @@
+title: Контакти
+description: 'Проста електронна контактна веб-форма.'
+elements: |
+  name:
+    '#title': 'Ім''я'
+    '#placeholder': 'Ваше ім''я'
+  message:
+    '#title': Повідомлення
+    '#placeholder': Повідомлення
+  processed_text:
+    '#text': "<div class=\"note\">Вказуючи свої дані, Ви даєте повну згоду на обробку персональних даних відповідно до <a href=\"/uk/politika-konfidencialnosti-administracii-sayta\" rel=\"nofollow\">Політикою конфіденційності адміністрації сайту</a></div>\r\n<div class=\"note\">Гарантуємо безпеку Ваших даних і те, що вони не будуть передані третім особам</div>\r\n\r\n"
+  actions:
+    '#submit__label': Відправити
+settings:
+  confirmation_message: 'Ваше повідомлення було надіслано.'
+handlers:
+  email_confirmation:
+    label: 'Підтвердження поштою'
+    settings:
+      body: '[webform_submission:values:message:value]'
+  email_notification:
+    label: 'Електронне сповіщення'
+    settings:
+      body: '[webform_submission:values:message:value]'

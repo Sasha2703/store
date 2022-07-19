@@ -1,0 +1,19 @@
+uuid: 2e08ba25-4837-430b-8446-7ab03812ae48
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_color_code
+    - taxonomy.vocabulary.color
+id: taxonomy_term.color.field_color_code
+field_name: field_color_code
+entity_type: taxonomy_term
+bundle: color
+label: 'Код цвета'
+description: 'Код цвета в формате #f3f3f3. Код можно определить по ссылке -  <a href="https://colorscheme.ru/color-names.html" target="_blank">https://colorscheme.ru/color-names.html</a>'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

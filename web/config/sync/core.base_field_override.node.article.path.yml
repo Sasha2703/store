@@ -1,0 +1,20 @@
+uuid: 6668285f-6f3c-4517-ad4c-0d003ece61cd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.article
+  module:
+    - path
+id: node.article.path
+field_name: path
+entity_type: node
+bundle: article
+label: 'URL alias'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: path

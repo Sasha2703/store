@@ -1,0 +1,16 @@
+uuid: 12ae99dd-cabe-4dac-8db9-4483a0c6bba8
+langcode: ru
+status: true
+dependencies: {  }
+name: product_prev
+label: product_prev
+effects:
+  e9c5eb82-3d9e-4360-906b-901d711f4919:
+    uuid: e9c5eb82-3d9e-4360-906b-901d711f4919
+    id: image_scale
+    weight: 2
+    data:
+      width: 250
+      height: 250
+      upscale: false
+pipeline: lossy

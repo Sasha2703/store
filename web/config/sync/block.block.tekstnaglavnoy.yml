@@ -1,0 +1,31 @@
+uuid: 413bb0b6-7f63-416e-94c9-42c6b21d9073
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:7017052c-82e8-45ae-b5a4-b170a7a24c83'
+  module:
+    - block_content
+    - system
+  theme:
+    - new
+id: tekstnaglavnoy
+theme: new
+region: content
+weight: -14
+provider: null
+plugin: 'block_content:7017052c-82e8-45ae-b5a4-b170a7a24c83'
+settings:
+  id: 'block_content:7017052c-82e8-45ae-b5a4-b170a7a24c83'
+  label: 'Текст на главной'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

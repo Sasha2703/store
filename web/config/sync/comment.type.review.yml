@@ -1,0 +1,8 @@
+uuid: 1876133a-69c0-459c-ade9-bcdb0068c354
+langcode: ru
+status: true
+dependencies: {  }
+id: review
+label: Отзыв
+target_entity_type_id: node
+description: ''

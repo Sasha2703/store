@@ -1,0 +1,22 @@
+uuid: 6240dbcf-1d78-4e99-80db-1d8cd5b47e2e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.color
+id: taxonomy_term.color.status
+field_name: status
+entity_type: taxonomy_term
+bundle: color
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

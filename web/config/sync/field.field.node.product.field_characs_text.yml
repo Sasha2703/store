@@ -1,0 +1,21 @@
+uuid: 82b503c7-e507-4a0a-8487-1a9d989d2f9c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_characs_text
+    - node.type.product
+  module:
+    - text
+id: node.product.field_characs_text
+field_name: field_characs_text
+entity_type: node
+bundle: product
+label: 'Характеристики текст'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

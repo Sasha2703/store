@@ -1,0 +1,10 @@
+settings:
+  allowed_values:
+    -
+      label: 'На складі'
+    -
+      label: 'Під замовлення'
+    -
+      label: Виготовлення
+    -
+      label: 'Знято з виробництва'

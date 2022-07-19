@@ -1,0 +1,23 @@
+uuid: 78a1152f-c77b-493f-b47b-d1ceba6ee72f
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_not_available
+    - node.type.product
+id: node.product.field_not_available
+field_name: field_not_available
+entity_type: node
+bundle: product
+label: 'Нет в наличии'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'Нет в наличии'
+  off_label: '0'
+field_type: boolean

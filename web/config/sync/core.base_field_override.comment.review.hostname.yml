@@ -1,0 +1,18 @@
+uuid: 374d6aef-536d-4ae6-97b7-1010b28025ff
+langcode: ru
+status: true
+dependencies:
+  config:
+    - comment.type.review
+id: comment.review.hostname
+field_name: hostname
+entity_type: comment
+bundle: review
+label: Hostname
+description: 'The comment author''s hostname.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,18 @@
+uuid: 9cd32612-b809-4ad5-bcb3-fed56f26ff7b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.characs
+id: taxonomy_term.characs.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: characs
+label: Мета-теги
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

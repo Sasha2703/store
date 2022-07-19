@@ -1,0 +1,30 @@
+uuid: 21735450-8071-40ff-af86-062ce663e313
+langcode: ru
+status: true
+dependencies:
+  module:
+    - dev_order
+    - options
+id: d_order.field_pay_method
+field_name: field_pay_method
+entity_type: d_order
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: '1'
+      label: 'Заказ без оплаты'
+    -
+      value: '2'
+      label: 'Оплата картой'
+    -
+      value: '3'
+      label: 'Наложенный платеж'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

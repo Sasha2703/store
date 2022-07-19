@@ -1,0 +1,23 @@
+uuid: a5626e21-815c-4ddb-909a-08a04c94e7dc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_in_filtr
+    - taxonomy.vocabulary.characs
+id: taxonomy_term.characs.field_in_filtr
+field_name: field_in_filtr
+entity_type: taxonomy_term
+bundle: characs
+label: 'Отображать в фильтрах'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

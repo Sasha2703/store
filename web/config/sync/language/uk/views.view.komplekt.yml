@@ -1,0 +1,11 @@
+display:
+  block_1:
+    display_options:
+      header:
+        area_text_custom:
+          content: Комплектація
+  default:
+    display_options:
+      header:
+        area_text_custom:
+          content: 'Переглянуті товари'

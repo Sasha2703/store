@@ -1,0 +1,61 @@
+uuid: 78c6b322-14d4-45d4-b9da-af6e3f93b2fa
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.color.field_big_image
+    - field.field.taxonomy_term.color.field_color_code
+    - field.field.taxonomy_term.color.field_image
+    - field.field.taxonomy_term.color.field_name_color
+    - taxonomy.vocabulary.color
+  module:
+    - image
+    - text
+id: taxonomy_term.color.default
+targetEntityType: taxonomy_term
+bundle: color
+mode: default
+content:
+  description:
+    label: hidden
+    type: text_default
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_big_image:
+    weight: 4
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_color_code:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_image:
+    weight: 3
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_name_color:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+hidden:
+  langcode: true

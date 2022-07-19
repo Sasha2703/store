@@ -1,0 +1,18 @@
+uuid: 96cc601d-1955-43a5-afcf-a80a315d16e3
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.wholesale
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: paragraph.wholesale
+target_entity_type_id: paragraph
+target_bundle: wholesale
+default_langcode: site_default
+language_alterable: false

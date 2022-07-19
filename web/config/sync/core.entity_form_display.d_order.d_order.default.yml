@@ -1,0 +1,72 @@
+uuid: 4ac4e825-47c2-4f98-be30-d654f24e32aa
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.d_order.d_order.field_dost
+    - field.field.d_order.d_order.field_manag
+    - field.field.d_order.d_order.field_pay_method
+    - field.field.d_order.d_order.field_status
+  module:
+    - dev_order
+id: d_order.d_order.default
+targetEntityType: d_order
+bundle: d_order
+mode: default
+content:
+  email:
+    type: email_default
+    weight: 2
+    label: hidden
+    settings:
+      size: 30
+      placeholder: 'Ваш email*'
+    region: content
+    third_party_settings: {  }
+  field_dost:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_manag:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_pay_method:
+    type: options_select
+    weight: 4
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_status:
+    weight: 5
+    settings: {  }
+    third_party_settings: {  }
+    type: options_select
+    region: content
+  name:
+    type: string_textfield
+    label: hidden
+    weight: 0
+    settings:
+      size: 30
+      placeholder: 'Ваше имя*'
+    region: content
+    third_party_settings: {  }
+  phone:
+    type: string_textfield
+    weight: 1
+    label: hidden
+    settings:
+      size: 30
+      placeholder: 'Ваш телефон*'
+    region: content
+    third_party_settings: {  }
+hidden: {  }

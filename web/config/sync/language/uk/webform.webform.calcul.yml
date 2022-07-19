@@ -1,0 +1,17 @@
+title: 'Надіслати проект на розрахунок'
+elements: |
+  files:
+    '#title': Файли
+  comment:
+    '#title': Коментар
+    '#placeholder': Коментар
+  processed_text:
+    '#text': "<div class=\"note\">Вказуючи свої дані, Ви даєте повну згоду на обробку персональних даних відповідно до <a href=\"/politika-konfidencialnosti-administracii-sayta\" rel=\"nofollow\">Політики конфіденційності адміністрації сайту</a></div>\n<div class=\"note\">Гарантуємо безпеку Ваших даних і те, що вони не будуть передані третім особам</div>\n"
+  title:
+    '#title': Назва
+  page:
+    '#title': Сторніка
+  actions:
+    '#submit__label': Відправити
+settings:
+  confirmation_message: 'Ваша заявка відправлена!'

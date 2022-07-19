@@ -1,0 +1,34 @@
+uuid: 4ff86fe3-843b-4b77-ba70-d71bfcedb06b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_wholesale_p
+    - node.type.product
+    - paragraphs.paragraphs_type.wholesale
+  module:
+    - entity_reference_revisions
+id: node.product.field_wholesale_p
+field_name: field_wholesale_p
+entity_type: node
+bundle: product
+label: 'Оптовые цены'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      wholesale: wholesale
+    target_bundles_drag_drop:
+      wholesale:
+        enabled: true
+        weight: 3
+      quest:
+        weight: 4
+        enabled: false
+field_type: entity_reference_revisions

@@ -1,0 +1,18 @@
+uuid: 8ee134be-8b0d-43c8-ac18-67158b72557c
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalogue
+id: taxonomy_term.catalogue.metatag
+field_name: metatag
+entity_type: taxonomy_term
+bundle: catalogue
+label: Мета-теги
+description: 'The meta tags for the entity.'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

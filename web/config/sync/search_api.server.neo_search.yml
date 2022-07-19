@@ -1,0 +1,17 @@
+uuid: 256def77-e22d-4fc3-b246-4294c696143c
+langcode: ru
+status: true
+dependencies:
+  module:
+    - search_api_db
+id: neo_search
+name: neo_search
+description: ''
+backend: search_api_db
+backend_config:
+  database: 'default:default'
+  min_chars: 3
+  matching: words
+  autocomplete:
+    suggest_suffix: true
+    suggest_words: true

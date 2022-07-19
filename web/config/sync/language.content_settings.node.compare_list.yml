@@ -1,0 +1,16 @@
+uuid: 38b65199-e3bb-443a-8a28-905dcc8f41ea
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.compare_list
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: node.compare_list
+target_entity_type_id: node
+target_bundle: compare_list
+default_langcode: site_default
+language_alterable: true

@@ -1,0 +1,31 @@
+uuid: 8459f057-9259-4cd9-acd1-cec7af3a65d7
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_vopros
+    - paragraphs.paragraphs_type.quest
+    - taxonomy.vocabulary.catalogue
+  module:
+    - entity_reference_revisions
+id: taxonomy_term.catalogue.field_vopros
+field_name: field_vopros
+entity_type: taxonomy_term
+bundle: catalogue
+label: 'Вопросы (разметка)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      quest: quest
+    target_bundles_drag_drop:
+      quest:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions

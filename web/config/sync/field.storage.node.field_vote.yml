@@ -1,0 +1,22 @@
+uuid: 0b5237f9-3a44-4610-9b4c-af622b443610
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+    - votingapi_widgets
+id: node.field_vote
+field_name: field_vote
+entity_type: node
+type: voting_api_field
+settings:
+  vote_type: vote
+  vote_plugin: useful
+  status: ''
+module: votingapi_widgets
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

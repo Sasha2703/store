@@ -1,0 +1,20 @@
+label: Новини
+display:
+  page_1:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Новини покрівельної компанії Ваша Надійна Покрівля'
+            description: 'Останні новинки про покрівельні матеріали та покрівельних рішеннях. сезонні Акції, Знижки компанії ВНК'
+  page_2:
+    display_options:
+      display_extenders:
+        metatag_display_extender:
+          metatags:
+            title: 'Все про покрівлю та покрівельні матеріали | ВНК'
+            description: 'Статті про покрівлю, інструкції для покрівельних матеріалів'
+      title: Статті
+  default:
+    display_options:
+      title: Новини

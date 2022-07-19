@@ -1,0 +1,59 @@
+uuid: f9716827-1653-4af9-ba74-eb8fd4eb82f2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.news.body
+    - field.field.node.news.field_anons
+    - field.field.node.news.field_image
+    - field.field.node.news.field_img_anons
+    - field.field.node.news.field_link
+    - field.field.node.news.field_meta_tag
+    - field.field.node.news.field_old_id
+    - field.field.node.news.field_resource
+    - node.type.news
+  module:
+    - text
+    - user
+id: node.news.default
+targetEntityType: node
+bundle: news
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_link:
+    weight: 2
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  field_resource:
+    weight: 1
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    type: string
+    region: content
+  links:
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_anons: true
+  field_image: true
+  field_img_anons: true
+  field_meta_tag: true
+  field_old_id: true
+  field_price_def: true
+  field_price_old: true
+  langcode: true

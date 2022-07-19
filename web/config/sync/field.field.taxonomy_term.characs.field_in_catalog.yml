@@ -1,0 +1,29 @@
+uuid: 150c10df-18db-4de8-b85d-d227fee787ee
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_in_catalog
+    - taxonomy.vocabulary.catalogue
+    - taxonomy.vocabulary.characs
+id: taxonomy_term.characs.field_in_catalog
+field_name: field_in_catalog
+entity_type: taxonomy_term
+bundle: characs
+label: Категория
+description: "Категория, в которой будет отображаться характеристика. Необходимо указывать только для названия характеристики (родителя термина). <br>Если характеристика должна отображаться во всех категориях, то поле должно оставаться пустым.\r\n"
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      catalogue: catalogue
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

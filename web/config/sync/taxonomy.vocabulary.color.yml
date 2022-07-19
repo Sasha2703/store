@@ -1,0 +1,8 @@
+uuid: 59c1396b-26d2-4faf-bfb7-57641675a670
+langcode: und
+status: true
+dependencies: {  }
+name: Цвет
+vid: color
+description: ''
+weight: 0

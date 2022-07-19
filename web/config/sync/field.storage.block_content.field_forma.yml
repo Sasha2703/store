@@ -1,0 +1,20 @@
+uuid: 1f80649a-7e69-4ae2-8f51-54e3cfaa5f10
+langcode: ru
+status: true
+dependencies:
+  module:
+    - block_content
+    - webform
+id: block_content.field_forma
+field_name: field_forma
+entity_type: block_content
+type: webform
+settings:
+  target_type: webform
+module: webform
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

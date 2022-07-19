@@ -1,0 +1,18 @@
+uuid: 6ee079ae-a6c1-4934-abc6-1434a1367ada
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.forma
+id: block_content.forma.metatag
+field_name: metatag
+entity_type: block_content
+bundle: forma
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

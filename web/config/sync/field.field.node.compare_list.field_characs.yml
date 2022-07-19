@@ -1,0 +1,29 @@
+uuid: de0ec7bb-9938-47fa-9a0f-ecb81c1ef953
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_characs
+    - node.type.compare_list
+    - taxonomy.vocabulary.characs
+id: node.compare_list.field_characs
+field_name: field_characs
+entity_type: node
+bundle: compare_list
+label: Характеристики
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      characs: characs
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

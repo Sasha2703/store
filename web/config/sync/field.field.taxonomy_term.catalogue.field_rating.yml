@@ -1,0 +1,28 @@
+uuid: 8889706b-db10-49f6-8abe-fb9171e89575
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_rating
+    - taxonomy.vocabulary.catalogue
+  module:
+    - votingapi_widgets
+id: taxonomy_term.catalogue.field_rating
+field_name: field_rating
+entity_type: taxonomy_term
+bundle: catalogue
+label: Rating
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    status: '1'
+    value: 0
+default_value_callback: ''
+settings:
+  anonymous_window: '-1'
+  user_window: '-1'
+  result_function: vote_average
+  widget_format: fivestar
+field_type: voting_api_field

@@ -1,0 +1,21 @@
+uuid: 19240859-2003-4c75-afd8-4fe20f700184
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_opisanie
+    - node.type.product
+  module:
+    - text
+id: node.product.field_opisanie
+field_name: field_opisanie
+entity_type: node
+bundle: product
+label: Описание
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

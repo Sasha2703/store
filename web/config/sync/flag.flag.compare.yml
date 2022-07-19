@@ -1,0 +1,30 @@
+uuid: a9bb3c18-e0a2-429e-a29f-97bb63403d76
+langcode: ru
+status: true
+dependencies:
+  module:
+    - node
+id: compare
+label: Compare
+bundles:
+  - product
+entity_type: node
+global: false
+weight: 0
+flag_short: '<span class="fas fa-balance-scale fa-active"></span><span class="text">Сравнить</span>'
+flag_long: 'Добавить к сравнению'
+flag_message: ''
+unflag_short: '<span class="fas fa-balance-scale fa-desactive"></span><span class="text">Не сравнивать</span>'
+unflag_long: 'Удалить из сравнения'
+unflag_message: ''
+unflag_denied_text: ''
+flag_type: 'entity:node'
+link_type: ajax_link
+flagTypeConfig:
+  show_in_links: {  }
+  show_as_field: true
+  show_on_form: false
+  show_contextual_link: false
+  extra_permissions:
+    owner: '0'
+linkTypeConfig: {  }

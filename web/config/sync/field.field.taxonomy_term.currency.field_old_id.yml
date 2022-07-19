@@ -1,0 +1,23 @@
+uuid: c49b260d-dbd4-48c1-bfb4-262957518ac4
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_old_id
+    - taxonomy.vocabulary.currency
+id: taxonomy_term.currency.field_old_id
+field_name: field_old_id
+entity_type: taxonomy_term
+bundle: currency
+label: 'Старый ID'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

@@ -1,0 +1,23 @@
+uuid: 5706b0eb-f41b-4e12-b47e-5d580602154e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_vol_from
+    - paragraphs.paragraphs_type.wholesale
+id: paragraph.wholesale.field_vol_from
+field_name: field_vol_from
+entity_type: paragraph
+bundle: wholesale
+label: От
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: 1
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: integer

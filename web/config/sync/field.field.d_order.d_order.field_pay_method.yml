@@ -1,0 +1,23 @@
+uuid: 4763ac2f-122c-4738-9400-c074d63dea88
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.d_order.field_pay_method
+  module:
+    - dev_order
+    - options
+id: d_order.d_order.field_pay_method
+field_name: field_pay_method
+entity_type: d_order
+bundle: d_order
+label: 'Способ оплаты'
+description: "<p class=\"op-1\">\r\nЕсли вы сомневаетесь в количестве материалов, или вам необходимо сделать дополнительные согласования с нашим менеджером, выберите данный пункт. Мы свяжемся с вами, уточним все детали и предложим наиболее удобный способ оплаты.\r\n</p>\r\n<p class=\"op-2\">\r\n<strong>Перед оплатой уточняйте у менеджера наличие, цену и срок поставки.</strong><br>\r\nРеквизиты для оплаты картой:<br>\r\n5168 7427 1381 6621 Лазебник Евгений Викторович\r\n</p>"
+required: true
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

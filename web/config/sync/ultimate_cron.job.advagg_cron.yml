@@ -1,0 +1,17 @@
+uuid: b8ed7cb7-db09-4296-b0d6-534cffa0d839
+langcode: ru
+status: true
+dependencies:
+  module:
+    - advagg
+title: 'Default cron handler'
+id: advagg_cron
+weight: 0
+module: advagg
+callback: advagg_cron
+scheduler:
+  id: simple
+launcher:
+  id: serial
+logger:
+  id: database

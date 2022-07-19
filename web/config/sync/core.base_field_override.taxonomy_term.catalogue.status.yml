@@ -1,0 +1,22 @@
+uuid: 8a1889e2-6bb0-499f-9219-6a1c7708ed90
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.catalogue
+id: taxonomy_term.catalogue.status
+field_name: status
+entity_type: taxonomy_term
+bundle: catalogue
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

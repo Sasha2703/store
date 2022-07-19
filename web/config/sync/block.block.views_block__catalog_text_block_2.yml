@@ -1,0 +1,25 @@
+uuid: e2221d4f-e1c2-4abb-bdc9-0eab5267cda2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - views.view.catalog_text
+  module:
+    - views
+  theme:
+    - new
+id: views_block__catalog_text_block_2
+theme: new
+region: content_top
+weight: -15
+provider: null
+plugin: 'views_block:catalog_text-block_2'
+settings:
+  id: 'views_block:catalog_text-block_2'
+  label: ''
+  provider: views
+  label_display: '0'
+  views_label: ''
+  items_per_page: none
+  context_mapping: {  }
+visibility: {  }

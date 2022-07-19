@@ -1,0 +1,4 @@
+flag_short: '<span class="fas fa-balance-scale fa-active"></span><span class="text">Порівняти</span>'
+flag_long: 'Додати до порівняння'
+unflag_short: '<span class="fas fa-balance-scale fa-desactive"></span><span class="text">Не порівнювати</span>'
+unflag_long: 'Видалити з порівняння'

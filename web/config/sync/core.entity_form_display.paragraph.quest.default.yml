@@ -1,0 +1,37 @@
+uuid: f8c9c7e7-dbdd-4659-8122-54bc70127a0e
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.quest.field_otvet
+    - field.field.paragraph.quest.field_vopros
+    - paragraphs.paragraphs_type.quest
+id: paragraph.quest.default
+targetEntityType: paragraph
+bundle: quest
+mode: default
+content:
+  field_otvet:
+    weight: 11
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_vopros:
+    weight: 0
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  translation:
+    weight: 10
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  created: true
+  status: true

@@ -1,0 +1,18 @@
+uuid: 92a39d95-cb86-4ffa-9906-cb79f676bf59
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.metatag
+field_name: metatag
+entity_type: media
+bundle: remote_video
+label: Мета-теги
+description: 'Мета-теги для сущности.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: map

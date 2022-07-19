@@ -1,0 +1,25 @@
+uuid: c55bebba-01b3-44c5-aed0-6e739bf1d77d
+langcode: ru
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:c46def60-e789-4228-8189-69b5f0b0c67a'
+  module:
+    - block_content
+  theme:
+    - new
+id: publikaciyamaterialov
+theme: new
+region: footer
+weight: -16
+provider: null
+plugin: 'block_content:c46def60-e789-4228-8189-69b5f0b0c67a'
+settings:
+  id: 'block_content:c46def60-e789-4228-8189-69b5f0b0c67a'
+  label: 'Публикация материалов'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

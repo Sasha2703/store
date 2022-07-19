@@ -1,0 +1,12 @@
+label: Порівняння
+display:
+  page_2:
+    display_options:
+      title: 'Порівняння металлочерепица'
+  default:
+    display_options:
+      header:
+        area:
+          content:
+            value: "<div class=\"quicktabs-compare-flag\">&nbsp;</div>\r\n\r\n<div class=\"quicktabs-compare-image\"><b>Зображення</b></div>\r\n\r\n<div class=\"quicktabs-compare-title\"><strong>Назва</strong></div>\r\n\r\n<div class=\"quicktabs-compare-title\"><b>Ціна</b></div>\r\n\r\n<div class=\"quicktabs-compare-title\"><b>Кольори</b></div>\r\n\r\n<div class=\"quicktabs-compare-characs\"><strong>Характеристики</strong></div>\r\n"
+            format: full_html

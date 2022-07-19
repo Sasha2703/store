@@ -1,0 +1,7 @@
+uuid: 9062fbe4-b5c8-4211-b469-d4c2602623ce
+langcode: ru
+status: false
+dependencies: {  }
+formId: comment_review_form
+captchaType: recaptcha/reCAPTCHA
+label: comment_review_form

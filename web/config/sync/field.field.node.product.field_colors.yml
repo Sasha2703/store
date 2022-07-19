@@ -1,0 +1,29 @@
+uuid: 8db6285a-5550-4cef-9056-c1a3b6d12e92
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_colors
+    - node.type.product
+    - taxonomy.vocabulary.color
+id: node.product.field_colors
+field_name: field_colors
+entity_type: node
+bundle: product
+label: Цвета
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      color: color
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

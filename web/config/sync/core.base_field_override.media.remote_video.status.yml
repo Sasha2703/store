@@ -1,0 +1,22 @@
+uuid: 97e63052-82ad-48bd-a4d9-5bc59593abcb
+langcode: ru
+status: true
+dependencies:
+  config:
+    - media.type.remote_video
+id: media.remote_video.status
+field_name: status
+entity_type: media
+bundle: remote_video
+label: Published
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

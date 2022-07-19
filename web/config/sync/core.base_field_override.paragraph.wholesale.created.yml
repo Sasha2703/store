@@ -1,0 +1,18 @@
+uuid: c537b6eb-991a-4f36-ada7-571ec040373b
+langcode: uk
+status: true
+dependencies:
+  config:
+    - paragraphs.paragraphs_type.wholesale
+id: paragraph.wholesale.created
+field_name: created
+entity_type: paragraph
+bundle: wholesale
+label: Створено
+description: 'The time that the Paragraph was created.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: created

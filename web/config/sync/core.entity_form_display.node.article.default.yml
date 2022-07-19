@@ -1,0 +1,180 @@
+uuid: f3759efb-eac8-421b-98cf-676c73be35fc
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.node.article.body
+    - field.field.node.article.field_anons
+    - field.field.node.article.field_image
+    - field.field.node.article.field_img_anons
+    - field.field.node.article.field_link
+    - field.field.node.article.field_meta_tag
+    - field.field.node.article.field_old_id
+    - field.field.node.article.field_resource
+    - field.field.node.article.field_tags
+    - image.style.thumbnail
+    - node.type.article
+  module:
+    - image
+    - insert
+    - metatag
+    - path
+    - text
+_core:
+  default_config_hash: vPb_yvhA-xuNoV_yOmOwYxGuHNRIH1CoMK2qi7BSga0
+id: node.article.default
+targetEntityType: node
+bundle: article
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 3
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 11
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_anons:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: text_textarea
+    region: content
+  field_image:
+    type: insert_image
+    weight: 4
+    region: content
+    settings:
+      preview_image_style: thumbnail
+      insert_default: image
+      insert_width: null
+      progress_indicator: throbber
+      insert_absolute: false
+      insert_styles:
+        boot_thumb: '0'
+        large: '0'
+        medium: '0'
+        product_image: '0'
+        product_prev: '0'
+        thumbnail: '0'
+        link: '0'
+        icon_link: '0'
+        image: '0'
+      insert_rotate: false
+    third_party_settings: {  }
+  field_img_anons:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_link:
+    weight: 6
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_meta_tag:
+    weight: 26
+    settings: {  }
+    third_party_settings: {  }
+    type: metatag_firehose
+    region: content
+  field_old_id:
+    weight: 8
+    settings:
+      placeholder: ''
+    third_party_settings: {  }
+    type: number
+    region: content
+  field_resource:
+    weight: 5
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_tags:
+    type: entity_reference_autocomplete_tags
+    weight: 7
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+  langcode:
+    type: language_select
+    weight: 9
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 16
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 12
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 17
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 13
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  translation:
+    weight: 15
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 10
+    region: content
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+      match_limit: 10
+    third_party_settings: {  }
+hidden: {  }

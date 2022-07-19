@@ -1,0 +1,44 @@
+uuid: 6da4fed0-4127-4da2-b9cb-795ef4a4ef35
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.wholesale.field_price
+    - field.field.paragraph.wholesale.field_vol_from
+    - field.field.paragraph.wholesale.field_vol_unto
+    - paragraphs.paragraphs_type.wholesale
+id: paragraph.wholesale.default
+targetEntityType: paragraph
+bundle: wholesale
+mode: default
+content:
+  field_price:
+    weight: 2
+    label: above
+    settings:
+      thousand_separator: ''
+      decimal_separator: .
+      scale: 2
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_decimal
+    region: content
+  field_vol_from:
+    weight: 0
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+  field_vol_unto:
+    weight: 1
+    label: above
+    settings:
+      thousand_separator: ''
+      prefix_suffix: true
+    third_party_settings: {  }
+    type: number_integer
+    region: content
+hidden: {  }

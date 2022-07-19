@@ -1,0 +1,23 @@
+uuid: b54d7f02-4901-4b27-b7c7-afe4f0196615
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_price
+    - paragraphs.paragraphs_type.wholesale
+id: paragraph.wholesale.field_price
+field_name: field_price
+entity_type: paragraph
+bundle: wholesale
+label: 'Цена + (наценка)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: ''
+field_type: decimal

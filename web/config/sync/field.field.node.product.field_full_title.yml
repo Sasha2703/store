@@ -1,0 +1,19 @@
+uuid: 2e30e45e-76ba-443e-9a6c-1732beeeee0d
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_full_title
+    - node.type.product
+id: node.product.field_full_title
+field_name: field_full_title
+entity_type: node
+bundle: product
+label: 'Полное название'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

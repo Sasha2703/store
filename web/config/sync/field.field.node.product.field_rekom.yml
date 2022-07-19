@@ -1,0 +1,23 @@
+uuid: d9cd6983-1947-44d0-ba59-24ef03273a39
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_rekom
+    - node.type.product
+id: node.product.field_rekom
+field_name: field_rekom
+entity_type: node
+bundle: product
+label: Рекомендуем
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Рекомендуем
+  off_label: '0'
+field_type: boolean

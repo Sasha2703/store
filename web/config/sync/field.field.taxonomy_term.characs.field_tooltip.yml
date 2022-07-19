@@ -1,0 +1,19 @@
+uuid: eb1a26e8-8ea6-4541-b3a1-6781583b946b
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_tooltip
+    - taxonomy.vocabulary.characs
+id: taxonomy_term.characs.field_tooltip
+field_name: field_tooltip
+entity_type: taxonomy_term
+bundle: characs
+label: Подсказка
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

@@ -1,0 +1,23 @@
+uuid: d5380c54-fa28-44ad-94fd-deafe53e4289
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_markup_proc
+    - taxonomy.vocabulary.currency
+id: taxonomy_term.currency.field_markup_proc
+field_name: field_markup_proc
+entity_type: taxonomy_term
+bundle: currency
+label: 'Наценка (%)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  min: null
+  max: null
+  prefix: ''
+  suffix: '%'
+field_type: integer

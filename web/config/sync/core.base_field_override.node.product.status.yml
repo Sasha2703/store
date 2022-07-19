@@ -1,0 +1,22 @@
+uuid: 69312857-d105-407e-bedd-788c90d30000
+langcode: ru
+status: true
+dependencies:
+  config:
+    - node.type.product
+id: node.product.status
+field_name: status
+entity_type: node
+bundle: product
+label: Опубликовано
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1
+default_value_callback: ''
+settings:
+  on_label: Вкл
+  off_label: Выкл
+field_type: boolean

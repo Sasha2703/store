@@ -1,0 +1,23 @@
+uuid: d30ffabf-2d71-4353-a8d6-8f4dec770c64
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.d_order.field_status
+  module:
+    - dev_order
+    - options
+id: d_order.d_order.field_status
+field_name: field_status
+entity_type: d_order
+bundle: d_order
+label: Статус
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: '1'
+default_value_callback: ''
+settings: {  }
+field_type: list_string

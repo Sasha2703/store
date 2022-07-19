@@ -1,0 +1,18 @@
+uuid: 1ada1ae0-4533-40a0-8473-9677d4571926
+langcode: ru
+status: true
+dependencies:
+  config:
+    - taxonomy.vocabulary.color
+id: taxonomy_term.color.changed
+field_name: changed
+entity_type: taxonomy_term
+bundle: color
+label: Изменение
+description: 'Время, когда этот термин был последний раз отредактирован.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: changed

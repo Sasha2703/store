@@ -1,0 +1,13 @@
+uuid: 7227832b-7c72-42a0-903e-eabdef435a38
+langcode: ru
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: 1noCXlegCr5HFehQRF1ViXy1jhU1jZ_sNN99a8Sj5jo
+id: front
+label: 'Front page'
+tags:
+  canonical_url: '[site:url]'
+  description: 'Интернет магазин кровельных материалов. Металлочерепица, битумная черепица, профнастил, модульная черепица. Полная комплектация кровли. Водосточные системы, подшивки свеса.'
+  title: 'Компания "ВНК" Ваша надежная кровля'
+  shortlink: '[site:url]'

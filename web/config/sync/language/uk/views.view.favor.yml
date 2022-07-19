@@ -1,0 +1,16 @@
+label: Обране
+display:
+  default:
+    display_options:
+      title: Обране
+      arguments:
+        term_node_tid_depth:
+          title: ''
+    display_title: Обране
+  page_1:
+    display_options:
+      title: Обране
+      arguments:
+        nid:
+          title: Обране
+description: 'Товари в обраному'

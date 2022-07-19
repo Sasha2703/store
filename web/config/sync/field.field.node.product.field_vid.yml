@@ -1,0 +1,25 @@
+uuid: 73f6e075-98b0-4c6b-8417-74d9252031a2
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vid
+    - node.type.product
+  module:
+    - video_embed_field
+id: node.product.field_vid
+field_name: field_vid
+entity_type: node
+bundle: product
+label: Видео
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_providers:
+    youtube: youtube
+    vimeo: '0'
+    youtube_playlist: '0'
+field_type: video_embed_field

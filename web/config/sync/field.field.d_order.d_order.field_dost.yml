@@ -1,0 +1,20 @@
+uuid: de3fc7ba-989b-4e1a-97ef-59991cf3fbbd
+langcode: ru
+status: true
+dependencies:
+  config:
+    - field.storage.d_order.field_dost
+  module:
+    - dev_order
+id: d_order.d_order.field_dost
+field_name: field_dost
+entity_type: d_order
+bundle: d_order
+label: 'Адрес доставки (отделение)'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

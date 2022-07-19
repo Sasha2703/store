@@ -1,0 +1,8 @@
+display:
+  attachment_1:
+    display_options:
+      header:
+        area:
+          content:
+            value: '<h3>Часто задавані питання</h3>'
+            format: code

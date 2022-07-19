@@ -1,0 +1,18 @@
+uuid: 2f486a82-c427-4100-83e2-9dc0dc30d207
+langcode: ru
+status: true
+dependencies:
+  config:
+    - block_content.type.forma
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: false
+    bundle_settings:
+      untranslatable_fields_hide: '0'
+id: block_content.forma
+target_entity_type_id: block_content
+target_bundle: forma
+default_langcode: site_default
+language_alterable: false
